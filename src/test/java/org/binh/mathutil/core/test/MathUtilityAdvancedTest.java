@@ -21,10 +21,11 @@ public class MathUtilityAdvancedTest {
     //int    long -> Object (Wrapper class)
     //                       Integer Long
     public static Object[][] initTestData() {
-        Object testData[][] = {{0, 1},
-        {2, 2},
-        {4, 24},
-        {6, 720}};
+        Object testData[][] = {
+            {0, 1},
+            {2, 2},
+            {4, 24},
+            {6, 7200}};
         return testData;
 
     }
